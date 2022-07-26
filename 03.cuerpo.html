@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <!--doctype = es una etiqueta que no necesita cierrre, cuya
+    funcion es facilitar informacion al servidor web que aloja 
+    la pagina, la informacion facilitada por esta etiqueta se 
+    refiere al tipo de documento, ademas es necesaria para la
+    comunicacion entre el navegador y el servidor web-->
+
+<html>
+    <!--HTML = Esta etiqueta es una par y es la etiqueta que encierra todo
+    el documento html-->
+
+<head>
+    <!--HEAD = es una etiqueta Par y que define la cabecera del documento y 
+    contiene informacion del mismo(metadatos, scrips, estilos, ubicacion de
+    documentos de estilos, titulos de la pagina entre otros datos.).-->
+
+    <meta charset="utf-8">
+    <meta name="Autor" content="Antonio T">
+    <meta name="descripcion"content="Contenido del sitio web">
+    <meta name="keywords" content="tutoriales, ejemplos, desarrollo web">
+        <!--META = no ocupa cierre y añade informacion sobre la pagina,los buscadores
+        buscan informacion de la etiqueta meta y tambien se usa para saber el idioma
+        que estamos utilizando en el lenguaje de marcado, tanto para parrafos como titulos
+        como tilde o ñ, estas etiquetas llevan atributos por ejemplo charset( nos permite
+        dar un valor, el cual nos perimte decirle que son caracteres latinos), name es otro
+        atributo que se le puede dar a meta para nombrar el meta dato.(debe ir con el atributo
+        content) -->
+    
+    <title>Estructura del cuerpo</title>
+        <!--titulo de la pagina web-->
+
+    <link rel="icon" href="img/poke.png">
+        <!--Nos sirve para vincular hojas de estilo o para poder vincular el icono que nos
+        aparece a lado del titulo de la pagina-->
+
+
+
+
+
+</head>
+
+<body>
+    <!--BODY = es una etiqueta par y la conocemos como el cuerpo del sitio web
+    todo lo que se escriba dentro de esta etiqueta sera visible por los navegadores-->
+
+    <header>
+        <!--Se utiliza para indicar que en esta parte va el cabezote del sitio web-->
+        
+        Cabezote
+
+    </header>
+    
+    <nav>Barra de navegacion</nav> <!--Barra de navegacion-->
+
+    <section>Seccion principal</section> <!--Seccion del sitio-->
+
+    <aside>columna</aside> <!--Para indentificar columnas-->
+
+    <article>Articulo</article> <!--Etiqueta para articulos-->
+
+    <h1>Titulo</h1> <!--Etiquetas para titulos-->
+    <h2>Titulo</h2>
+    <h3>Titulo</h3>
+    <h4>Titulo</h4>
+    <h5>Titulo</h5>
+    <h6>Titulo</h6>
+
+    <p>Esto es un <b>Parrafo</b>. <br>Esto es otro parrafo</p> <!--Etiquetas de parrafos para ver texto-->
+                                    <!-- la etiqueta b, sirve para poner negritas-->
+
+    <hr> <!--hace interlineado en la pagina, linea divisora-->
+
+    <a href="#">Vinculo</a> <!--Etiqueta para hacer vinculos-->
+
+    <figure> <!--Ayuda a que no este en el aire y que se vean organizadas dentro de la etiqueta figure -->
+        <img src="img/imagen.jpg"> <!--Etiqueta para vincular imagenes-->
+    </figure>
+
+    <figcaption> <!--Se utiliza para dar pie de pagina a la imagen-->
+        Pie de pagina de la imagen
+    </figcaption>
+    
+
+    <ol> <!--Etiqueta para conjunto de listas/ lista organizada-->
+        <li>Carro</li>
+        <li>Barco</li>
+        <li>Avion</li>
+    </ol> 
+
+    <ul><!--Lista no numerica u organizada-->
+        <li>carro</li>
+        <li>Barco</li>
+        <li>Avion</li>
+    </ul>
+
+    <table border="1"> <!--tablas organizadas-->
+        <thead>
+            <tr> <!--filas-->
+                <th>MES</th> <!--Columnas-->
+                <th>Ahorro</th> <!--Columnas-->
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr> <!--filas-->
+                <td>Enero</td> <!--Columnas-->
+                <td>$100</td> <!--Columnas-->
+            </tr>
+
+            <tr> <!--filas-->
+                <td>Febrero</td> <!--Columnas-->
+                <td>$200</td> <!--Columnas-->
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Resultados del Examen</h1>
+    <p>Carlos:<meter value="94" min="0" max="100" high="90"> </meter></p>
+    <p>Andres:<meter value="60" min="0" max="100" high="90"> </meter></p>
+    <p>Ana:<meter value="85" min="0" max="100" high="90"> </meter></p>
+    <p>Pedro:<meter value="40" min="0" max="100" high="90"> </meter></p>
+
+
+    <h2>Resultados de ventas</h1>
+    <p>Enero:<progress value="94" min="0" max="100"> </progress></p>
+    <p>Febrero:<progress value="60" min="0" max="100"> </progress></p>
+    <p>Marzo:<progress value="85" min="0" max="100"> </progress></p>
+    <p>Abril:<progress value="40" min="0" max="100"> </progress></p>
+
+    <footer>Este es el pie de pagina</footer>
+
+</body>
+
+
+
+
+
+
+
+</html>
+
